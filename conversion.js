@@ -32,8 +32,19 @@
 // }
 // console.log(items[3]);
 
-function joynaLabdin(x,y){
-    return x*y;
+// 
+
+// function ageCal(BirthYear){
+//     return 2022 - BirthYear;
+
+// }
+// var age = ageCal(1994);
+// console.log(age);
+
+//function expression
+var ageCal = function (BirthYear){
+    return 2022 - BirthYear;
+
 }
-var result = joynaLabdin(10,20);
-console.log(result);
+var age = ageCal(1994);
+console.log(age);
